@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "./Images/Button";
-
+import Hero_Image from './Images/Hero_Image.png';
 const HeroSection = () => {
   return (
     <div className="relative mb-5">
       <img
         className="h-[650px] w-[100%] opacity-3"
-        src="https://s3-alpha-sig.figma.com/img/4df9/f396/c8b4ef806609efd227c6672c5dba3716?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Duz-iIny5XDy2hCnU8iZW3RqhOvKotjexp7nwpQEFRpK931p8-7KHfe5q0dl1zaUXw3xkeC9g0VvCkhb074ag-ZaKZAJo5Emla9mC1dJ5uAvbNCH43XBGAJE6ynHWVOSZIUGLsYaDyyAJ-S9O6V4PJ8x8YmbH9lewNjKhLw265-ObuejCdRXGIs7M~kVJGLuPt8bkHqg3WSFkw-dlrxDc1ZGbUkZFriX7ZcIeLnGcR068VMCVACAyZ86cPuZd~koxagnn3MtVWrhL1e3V75LUx2NjcqCaXIHOgHDO0bPsCgyzaXhkj~FawrLssDSYZMapgx0z2ZcUsxhaYGMOXcx3Q__"
+        src={Hero_Image}
         alt="hero_image"
       />
       <div className="absolute  inset-0 flex items-center justify-center flex-col">
